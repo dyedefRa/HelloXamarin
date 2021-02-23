@@ -4,6 +4,7 @@
              x:Class="HelloXamarin.App">
     <Application.Resources>
         <ResourceDictionary>
+            <!--StyleileXamldeCssVerme.xaml dan alındı-->
             <!--<ContentPage.Resources> ile Css verebiliyoruz-->
                     <Style TargetType="Label">
                         <Setter Property="TextColor" Value="Green"></Setter>
@@ -17,21 +18,11 @@
                     <Style x:Key="lblBaseOn" TargetType="Label" BasedOn="{StaticResource lblBlueOne}">
                         <Setter Property="FontAttributes" Value="Bold"></Setter>
                     </Style>
+            <!--SS-->
+
+            <!--Start Default Theme Resources--!>
+            <!--<Style TargetType="Label" x:Key="DefaultTitle"></Style>-->
                 </ResourceDictionary>
-            <!--</ContentPage.Resources>
-            <ContentPage.Content>
-                <StackLayout>
-                    <StackLayout>
-                        <Label Text="Welcome to Xamarin.Forms!"  />
-                        <Label Text="Test"></Label>
-                        --><!--Özel olarak css verme 2--><!--
-                        <Label Text="Özel Label" Style="{StaticResource lblBlueOne}"></Label>
-                        <Label Text="Özel Label2" Style="{StaticResource lblBlueOne}"></Label>
-                        --><!--Based On örneği--><!--
-                        <Label Text="Özel Label Base On" Style="{StaticResource lblBaseOn}"></Label>
-                    </StackLayout>
-                </StackLayout>
-            </ContentPage.Content>
-        </ResourceDictionary>-->
+          
     </Application.Resources>
 </Application>
