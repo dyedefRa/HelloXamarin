@@ -1,0 +1,2 @@
+﻿1)Tüm sayfalarda css ayarlama.
+--App.xaml de StyleileXamldeCssVerme deki Resourcenin içindekilerini atarsan app bazında css vermiş olursun

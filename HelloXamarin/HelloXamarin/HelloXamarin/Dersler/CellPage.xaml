@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloXamarin.Dersler.CellPage">
+    <ContentPage.Content>
+        <!--Bu kontroller düzenli kontroller.-->
+        
+        <TableView>
+            <TableRoot>
+                <TableSection>
+                    <SwitchCell x:Name="sCell" OnChanged="sCell_OnChanged" Text="Test içeriği" On="True"></SwitchCell>
+                    <EntryCell Label="Label içeriği"
+                               LabelColor="Blue"
+                                Placeholder="Placeholder"
+                                Keyboard="Url">
+                    </EntryCell>
+                    <ImageCell Text="Text içeriiği"
+                                ImageSource="indir.png"
+                               Detail="TEst"
+                               ></ImageCell>
+                    <TextCell Text="Text içeriiğidirr"
+                              Detail="detail text"></TextCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>

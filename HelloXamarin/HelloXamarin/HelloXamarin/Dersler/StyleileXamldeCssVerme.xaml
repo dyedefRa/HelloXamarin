@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloXamarin.Dersler.StyleileXamldeCssVerme">
+    <!--<ContentPage.Resources> ile Css verebiliyoruz-->
+        <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="Red"></Setter>
+            </Style>
+            <!--Özel olarak css verme-->
+            <Style TargetType="Label" x:Key="lblBlueOne">
+                <Setter Property="TextColor" Value="Blue"></Setter>
+                <Setter Property="FontSize" Value="16"></Setter>
+            </Style>
+            <!--Hem lblBlueOne css ini alsın hemde bu ozellıgı alsın yani basedediğin tüm özellikleri alsın ve özel olarka burada yazdıgım yerlerı overrıdelasın-->
+            <Style x:Key="lblBaseOn" TargetType="Label" BasedOn="{StaticResource lblBlueOne}">
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="Welcome to Xamarin.Forms!"  />
+                <Label Text="Test"></Label>
+                <!--Özel olarak css verme örnegi-->
+                <Label Text="Özel Label" Style="{StaticResource lblBlueOne}"></Label>
+                <Label Text="Özel Label2" Style="{StaticResource lblBlueOne}"></Label>
+                <!--Based On örneği-->
+                <Label Text="Özel Label Base On" Style="{StaticResource lblBaseOn}"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

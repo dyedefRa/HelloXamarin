@@ -1,0 +1,3 @@
+C:\PROJECTS\HelloXamarin\HelloXamarin\HelloXamarin.Android\obj\Debug\44\MonoAndroid,Version=v4.4.AssemblyAttributes.cs
+C:\PROJECTS\HelloXamarin\HelloXamarin\HelloXamarin.Android\obj\Debug\44\build.props
+C:\PROJECTS\HelloXamarin\HelloXamarin\HelloXamarin.Android\obj\Debug\44\adb.props
