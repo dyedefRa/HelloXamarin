@@ -9,7 +9,7 @@ namespace HelloXamarin
         {
             InitializeComponent();
 
-            MainPage = new StyleileXamldeCssVerme();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

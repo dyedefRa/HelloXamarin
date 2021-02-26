@@ -1,0 +1,16 @@
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\HelloXamarin2.csprojAssemblyReference.cache
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\Views\ListView.xaml.g.cs
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\HelloXamarin2.AssemblyInfoInputs.cache
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\HelloXamarin2.AssemblyInfo.cs
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\HelloXamarin2.csproj.CoreCompileInputs.cache
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\HelloXamarin2.dll
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\ref\HelloXamarin2.dll
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\HelloXamarin2.pdb
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\bin\Debug\netstandard2.0\HelloXamarin2.deps.json
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\bin\Debug\netstandard2.0\HelloXamarin2.dll
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\bin\Debug\netstandard2.0\ref\HelloXamarin2.dll
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\bin\Debug\netstandard2.0\HelloXamarin2.pdb
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\PROJECTS\HelloXamarin2\HelloXamarin2\HelloXamarin2\obj\Debug\netstandard2.0\Views\ResimOrnegi.xaml.g.cs

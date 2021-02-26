@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local1="clr-namespace:HelloXamarin2.Data;assembly=HelloXamarin2"
+             x:Class="HelloXamarin2.Views.ResimOrnegi">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"></OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local1:MYImageSourceConverter x:Key="imageCon"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <!-- 1 xmlns:local="clr-namespace:HelloXamarin2.Data;assembly=HelloXamarin2" ekledik.
+    2 ResourceDictionary ekledik ve oluşturduğumuz local1 tagini kullandık.
+    3 ImageCell da;
+     ImageSource="{Binding ImageUrl,Converter={StaticResource imageCon}}" ekledik
+    -->
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+          <!--BURASI DINAMIK OLARAK TOTAL COUNT OLAYINI FOOTERA EKLEMEK ICIN YAZDIK FOOTER1-->
+            <ListView x:Name="lstMVA" Footer="{Binding Count,Source={x:Static local1:MVAFactory.MVAData}}">
+                <ListView.Header>
+                    <ContentView Padding="3.5" BackgroundColor="#fff">
+                        <Label FontSize="Medium" TextColor="#000" Text="Microsoft Açık Akademi Sanal Sınıflar"
+                               HorizontalTextAlignment="Center"
+                               VerticalOptions="Center"></Label>
+                    </ContentView>
+                </ListView.Header>
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell Text="{Binding Title}"
+                                   TextColor="DarkGray"
+                                   Detail="{Binding Description}" DetailColor="#333"
+                                   ImageSource="{Binding ImageUrl,Converter={StaticResource imageCon}}"></ImageCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+                <!--FOOTER2-->
+                <ListView.FooterTemplate>
+                    <DataTemplate>
+                        <ContentView Padding="0,5,5,0">
+                            <Label FontSize="Medium"
+                                   TextColor="#666"
+                                   VerticalTextAlignment="Center"
+                                   HorizontalTextAlignment="End"
+                                   Text="{Binding .,StringFormat='{0} sanal sınıf mevcut'}"></Label>
+                        </ContentView>
+                    </DataTemplate>
+                </ListView.FooterTemplate>
+            </ListView>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
