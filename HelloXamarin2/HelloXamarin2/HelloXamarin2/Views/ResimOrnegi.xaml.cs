@@ -11,7 +11,17 @@ namespace HelloXamarin2.Views
         {
             InitializeComponent();
             //lstMVA.BindingContext = MVAFactory.MVAData;
-            lstMVA.ItemsSource= MVAFactory.MVAData;
+            lstMVA.ItemsSource = MVAFactory.MVAData;
+
+        }
+
+        private void lstMVA_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem == null)
+                return;
+
+            var selectedData = (MVAFactory.MVA)e.SelectedItem;
+            DisplayAlert(selectedData.PublishedDate.ToString("dd-MM-yyyy"), selectedData.Description, "Tamam");
 
         }
     }

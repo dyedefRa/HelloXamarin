@@ -20,7 +20,7 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
           <!--BURASI DINAMIK OLARAK TOTAL COUNT OLAYINI FOOTERA EKLEMEK ICIN YAZDIK FOOTER1-->
-            <ListView x:Name="lstMVA" Footer="{Binding Count,Source={x:Static local1:MVAFactory.MVAData}}">
+            <ListView x:Name="lstMVA" Footer="{Binding Count,Source={x:Static local1:MVAFactory.MVAData}}" ItemSelected="lstMVA_ItemSelected">
                 <ListView.Header>
                     <ContentView Padding="3.5" BackgroundColor="#fff">
                         <Label FontSize="Medium" TextColor="#000" Text="Microsoft Açık Akademi Sanal Sınıflar"
