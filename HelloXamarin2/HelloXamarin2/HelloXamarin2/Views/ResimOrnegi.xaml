@@ -19,8 +19,16 @@
 
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+            <SearchBar x:Name="mySearchBar" Placeholder="Ara" TextColor="#000"
+                       TextChanged="SearchBar_TextChanged"></SearchBar>
           <!--BURASI DINAMIK OLARAK TOTAL COUNT OLAYINI FOOTERA EKLEMEK ICIN YAZDIK FOOTER1-->
-            <ListView x:Name="lstMVA" Footer="{Binding Count,Source={x:Static local1:MVAFactory.MVAData}}" ItemSelected="lstMVA_ItemSelected">
+            <ListView x:Name="lstMVA" Footer="{Binding Count,Source={x:Static local1:MVAFactory.MVAData}}" ItemSelected="lstMVA_ItemSelected" IsPullToRefreshEnabled="True"
+                      Refreshing="lstMVA_Refreshing">
+                <!--Listview Refreshing methodunu çalıştırmak ıcın 
+                IsPullToRefreshEnabled="True"
+                      Refreshing="lstMVA_Refreshing">
+                ekledik-->
                 <ListView.Header>
                     <ContentView Padding="3.5" BackgroundColor="#fff">
                         <Label FontSize="Medium" TextColor="#000" Text="Microsoft Açık Akademi Sanal Sınıflar"
@@ -34,7 +42,12 @@
                         <ImageCell Text="{Binding Title}"
                                    TextColor="DarkGray"
                                    Detail="{Binding Description}" DetailColor="#333"
-                                   ImageSource="{Binding ImageUrl,Converter={StaticResource imageCon}}"></ImageCell>
+                                   ImageSource="{Binding ImageUrl,Converter={StaticResource imageCon}}">
+                            <ImageCell.ContextActions>
+                                <MenuItem Text="Güncelle" Clicked="MenuItem_Clicked"></MenuItem>
+                                <MenuItem Text="Sil" Clicked="MenuItem_Clicked_1"></MenuItem>
+                            </ImageCell.ContextActions>
+                        </ImageCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
 
@@ -42,7 +55,7 @@
                 <ListView.FooterTemplate>
                     <DataTemplate>
                         <ContentView Padding="0,5,5,0">
-                            <Label FontSize="Medium"
+                            <Label x:Name="lblFooter" FontSize="Medium"
                                    TextColor="#666"
                                    VerticalTextAlignment="Center"
                                    HorizontalTextAlignment="End"
