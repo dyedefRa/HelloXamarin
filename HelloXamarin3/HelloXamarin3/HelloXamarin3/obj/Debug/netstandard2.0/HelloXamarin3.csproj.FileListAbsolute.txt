@@ -1,0 +1,15 @@
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\bin\Debug\netstandard2.0\HelloXamarin3.deps.json
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\bin\Debug\netstandard2.0\HelloXamarin3.dll
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\bin\Debug\netstandard2.0\ref\HelloXamarin3.dll
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\bin\Debug\netstandard2.0\HelloXamarin3.pdb
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\HelloXamarin3.csprojAssemblyReference.cache
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\Views\FirstPage.xaml.g.cs
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\HelloXamarin3.AssemblyInfoInputs.cache
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\HelloXamarin3.AssemblyInfo.cs
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\HelloXamarin3.csproj.CoreCompileInputs.cache
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\HelloXamarin3.dll
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\ref\HelloXamarin3.dll
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3\obj\Debug\netstandard2.0\HelloXamarin3.pdb

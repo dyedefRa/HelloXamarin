@@ -1,0 +1,6 @@
+﻿---------------
+Device farklılıklarını App te yakalamak için Her ortam için DeviceHelper yazabilirsin.
+
+1- Device a özel Entry yazdık.
+CustomRenderers dosyası altında yazdık.
+Bunu her platform için yazmalısın.
