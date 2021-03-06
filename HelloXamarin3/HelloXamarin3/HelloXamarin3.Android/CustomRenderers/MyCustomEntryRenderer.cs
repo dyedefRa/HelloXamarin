@@ -1,8 +1,9 @@
-﻿using HelloXamarin3.Droid.CustomRenderers;
+﻿using HelloXamarin3.CustomControls;
+using HelloXamarin3.Droid.CustomRenderers;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-[assembly: Xamarin.Forms.ExportRenderer(typeof(Entry), typeof(MyCustomEntryRenderer))]
+[assembly: Xamarin.Forms.ExportRenderer(typeof(MyCustomEntry), typeof(MyCustomEntryRenderer))]
 namespace HelloXamarin3.Droid.CustomRenderers
 {
     [System.Obsolete]

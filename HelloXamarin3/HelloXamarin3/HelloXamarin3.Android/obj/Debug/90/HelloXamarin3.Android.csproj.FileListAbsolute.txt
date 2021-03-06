@@ -491,3 +491,4 @@ C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3.Android\obj\Debug\90\stamp
 C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3.Android\obj\Debug\90\android\src\crc64a9964f61fcf7c4fe\MyCustomEntryRenderer.java
+C:\PROJECTS\HelloXamarin3\HelloXamarin3\HelloXamarin3.Android\obj\Debug\90\android\src\crc64a9964f61fcf7c4fe\MyCustomDatePickerRenderer.java

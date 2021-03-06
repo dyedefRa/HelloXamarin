@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloXamarin3.CustomControls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,13 +19,20 @@ namespace HelloXamarin3.Views
             Label lbl = new Label();
             lbl.Text = deviceName;
 
+            MyCustomEntry myCustomEntry = new MyCustomEntry();
             Entry entry = new Entry();
+
+
+            MyCustomDatePicker myCustomDatePicker = new MyCustomDatePicker();
+            myCustomDatePicker.TextColor = Color.Blue;
             Content = new StackLayout()
             {
                 Children =
                 {
                     lbl,
-                    entry
+                    entry,
+                    myCustomEntry,
+                    myCustomDatePicker
                 }
             };
         }

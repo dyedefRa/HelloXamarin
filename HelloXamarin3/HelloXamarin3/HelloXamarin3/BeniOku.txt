@@ -1,6 +1,11 @@
-﻿---------------
+﻿--------------- Android de böyle gözüksün iOs ta şöyle gözuksun olayı.
 Device farklılıklarını App te yakalamak için Her ortam için DeviceHelper yazabilirsin.
 
 1- Device a özel Entry yazdık.
 CustomRenderers dosyası altında yazdık.
 Bunu her platform için yazmalısın.
+
+Sınıfı MyCustomEnty ile yazdık . Bu nesne ile olusturdugum tum entryle device gore ayarladıgım sekılde sekıllenecek
+
+
+2- SQLite-Net PCL indir NuGet tan
