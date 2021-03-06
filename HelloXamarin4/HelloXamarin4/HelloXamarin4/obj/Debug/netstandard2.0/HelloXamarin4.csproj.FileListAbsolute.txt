@@ -1,0 +1,15 @@
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\bin\Debug\netstandard2.0\HelloXamarin4.deps.json
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\bin\Debug\netstandard2.0\HelloXamarin4.dll
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\bin\Debug\netstandard2.0\ref\HelloXamarin4.dll
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\bin\Debug\netstandard2.0\HelloXamarin4.pdb
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\HelloXamarin4.AssemblyInfoInputs.cache
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\HelloXamarin4.AssemblyInfo.cs
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\HelloXamarin4.csproj.CoreCompileInputs.cache
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\XamlC.stamp
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\HelloXamarin4.dll
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\ref\HelloXamarin4.dll
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\HelloXamarin4.pdb
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\Views\SQLiteListPage.xaml.g.cs
+C:\PROJECTS\HelloXamarin4\HelloXamarin4\HelloXamarin4\obj\Debug\netstandard2.0\HelloXamarin4.csprojAssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\PROJECTS\WebService05\WebService05\WebService05\bin\Debug\netstandard2.0\WebService05.deps.json
+C:\PROJECTS\WebService05\WebService05\WebService05\bin\Debug\netstandard2.0\WebService05.dll
+C:\PROJECTS\WebService05\WebService05\WebService05\bin\Debug\netstandard2.0\ref\WebService05.dll
+C:\PROJECTS\WebService05\WebService05\WebService05\bin\Debug\netstandard2.0\WebService05.pdb
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\WebService05.csprojAssemblyReference.cache
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\Views\ListPage.xaml.g.cs
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\WebService05.AssemblyInfoInputs.cache
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\WebService05.AssemblyInfo.cs
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\WebService05.csproj.CoreCompileInputs.cache
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\XamlC.stamp
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\WebService05.dll
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\ref\WebService05.dll
+C:\PROJECTS\WebService05\WebService05\WebService05\obj\Debug\netstandard2.0\WebService05.pdb
