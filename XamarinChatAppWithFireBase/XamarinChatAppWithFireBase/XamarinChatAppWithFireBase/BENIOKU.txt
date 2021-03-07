@@ -1,0 +1,3 @@
+﻿1-Firebase.Xamarin Light olanı kurduk.
+2-DbFire.cs te GetRoomList methodunda Odaları çekiyoruz ve burada FireBase den gelen Key i Room.cs key e atıyoruz.
+3-RoomPage.xaml da , ListView nesnesinde , IsPullToRefreshEnabled özelliğini kullandık.
