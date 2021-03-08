@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p5rKk2LMEk76Wv0afCcAv2UpcqofRtfCmK4prblBt0AE7KSLqJsnnmL3YH/6IoBC+iDeana0jugsE0N0HlCG3A==",
+  "dgSpecHash": "hqtzksLd+uEwCoIVUAUOqc+ux0AHfBPep+a+razKYzphUkzt3RJpJAbxNUt41QYbIujQlS6q+/g3PNlkp39Srw==",
   "success": true,
   "projectFilePath": "C:\\PROJECTS\\HelloXamarin\\HelloXamarin\\HelloXamarin\\HelloXamarin.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\msi-nb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\msi-nb\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }
