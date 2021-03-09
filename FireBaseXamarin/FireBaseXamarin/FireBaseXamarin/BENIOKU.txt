@@ -5,3 +5,4 @@
 4-
 //Bu sayfaya yönlendir
             Navigation.PushAsync(new RoomAddPage());
+5-Rg.Plugins.Popup

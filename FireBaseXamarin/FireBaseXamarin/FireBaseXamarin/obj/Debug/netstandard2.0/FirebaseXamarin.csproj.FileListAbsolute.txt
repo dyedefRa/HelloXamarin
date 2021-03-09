@@ -14,3 +14,4 @@ C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandar
 C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\Views\RoomListPage.xaml.g.cs
 C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\FirebaseXamarin.csprojAssemblyReference.cache
 C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\Views\RoomAddPage.xaml.g.cs
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\PopupPage\MyPopupPage.xaml.g.cs

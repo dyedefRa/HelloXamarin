@@ -1,4 +1,5 @@
-﻿using FirebaseXamarin.Views;
+﻿using FirebaseXamarin.PopupPage;
+using FirebaseXamarin.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,8 +11,8 @@ namespace FirebaseXamarin
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new RoomListPage());
-
+            //MainPage = new NavigationPage(new RoomListPage());
+            MainPage = new MyPopupPage();
             //MainPage = new RoomListPage();
         }
 

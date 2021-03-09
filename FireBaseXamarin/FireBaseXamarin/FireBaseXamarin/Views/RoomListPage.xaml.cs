@@ -1,4 +1,5 @@
 ﻿using FirebaseXamarin.Helper;
+using FirebaseXamarin.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +34,7 @@ namespace FirebaseXamarin.Views
 
         private void Quest_Clicked(object sender, EventArgs e)
         {
-
+            DisplayAlert("Current User ", User.UserName, "Okey");
         }
 
         private async void ListView_Refreshing(object sender, EventArgs e)
