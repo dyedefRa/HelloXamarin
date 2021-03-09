@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace FirebaseXamarin.Helper
 {
     public class DbFireBase
@@ -27,6 +28,14 @@ namespace FirebaseXamarin.Helper
                 }).ToList();
 
             return list;
+        }
+
+        public async void AddRoom(Room room)
+        {
+            var data = Newtonsoft.Json.JsonConvert.SerializeObject(room);
+            await firebaseClient
+                  .Child("ChatApp")
+                  .PostAsync(data);
         }
     }
 }

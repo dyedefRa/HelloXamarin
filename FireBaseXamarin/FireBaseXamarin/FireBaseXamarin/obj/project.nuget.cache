@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7XZ5e8vsuEVl9n3jB62rXIODLXiky/PM2yRdOhiG8caHOissyCnQZL1HIKAcE8PnDOXa6Nr8gsMoANMgI13RSw==",
+  "dgSpecHash": "EEyyVWeGxCoHzYdVVfgQgrs7dIjpuPzgbBy3HPlnpkzdlwySo7T2hKKr1Zzd51aLMEFreJ0FhSegXl21e6cOLg==",
   "success": true,
   "projectFilePath": "C:\\PROJECTS\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\msi-nb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\msi-nb\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\msi-nb\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",

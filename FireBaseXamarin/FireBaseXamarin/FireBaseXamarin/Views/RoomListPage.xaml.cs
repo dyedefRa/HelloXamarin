@@ -15,10 +15,10 @@ namespace FirebaseXamarin.Views
     {
         //async metodları ctor da yazamıyoruz ama OnAppearing yani sayfa görüntulendıgınde override ederek calıstırabılıyoruz
         DbFireBase dbFire = new DbFireBase();
-        protected override void OnAppearing()
+        protected async override void OnAppearing()
         {
             base.OnAppearing();
-            lstView.BindingContext = dbFire.GetRoomList();
+            lstView.BindingContext = await dbFire.GetRoomList();
         }
         public RoomListPage()
         {
@@ -27,7 +27,8 @@ namespace FirebaseXamarin.Views
 
         private void Plus_Clicked(object sender, EventArgs e)
         {
-
+            //Bu sayfaya yönlendir
+            Navigation.PushAsync(new RoomAddPage());
         }
 
         private void Quest_Clicked(object sender, EventArgs e)
@@ -35,9 +36,10 @@ namespace FirebaseXamarin.Views
 
         }
 
-        private void ListView_Refreshing(object sender, EventArgs e)
+        private async void ListView_Refreshing(object sender, EventArgs e)
         {
-
+            lstView.BindingContext = await dbFire.GetRoomList();
+            lstView.IsRefreshing = false;
         }
     }
 }

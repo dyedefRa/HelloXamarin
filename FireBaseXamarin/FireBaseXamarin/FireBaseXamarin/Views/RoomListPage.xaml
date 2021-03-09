@@ -8,14 +8,13 @@
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
-        <ListView x:Name="lstView" ItemsSource="{Binding}" SeparatorVisibility="None"
-                  IsPullToRefreshEnabled="True" Refreshing="ListView_Refreshing">
+        <ListView x:Name="lstView" ItemsSource="{Binding .}" SeparatorVisibility="None"
+                  IsPullToRefreshEnabled="True" Refreshing="ListView_Refreshing" RowHeight="120">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout BackgroundColor="Blue">
-                            <Label Text="{Binding Name}" TextColor="White" HorizontalOptions="CenterAndExpand"
-                                   VerticalOptions="Center"
+                        <StackLayout BackgroundColor="Blue" Margin="5">
+                            <Label Text="{Binding Name}" TextColor="White" HorizontalOptions="Center"                                 VerticalOptions="CenterAndExpand"
                                    FontSize="20"></Label>
                         </StackLayout>
                     </ViewCell>

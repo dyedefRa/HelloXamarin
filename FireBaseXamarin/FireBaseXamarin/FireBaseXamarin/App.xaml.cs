@@ -10,8 +10,9 @@ namespace FirebaseXamarin
         public App()
         {
             InitializeComponent();
+            MainPage = new NavigationPage(new RoomListPage());
 
-            MainPage = new RoomListPage();
+            //MainPage = new RoomListPage();
         }
 
         protected override void OnStart()

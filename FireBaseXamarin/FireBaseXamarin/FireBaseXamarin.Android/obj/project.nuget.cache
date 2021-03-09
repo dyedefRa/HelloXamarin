@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "by9LRFwqokxXIcNukwbFYzixjZdT29w6s+cDB0LRbTBzjkQ6yZEv/7jco2/2U3KiHd4spvKZo26FLIGuN8vxlQ==",
+  "dgSpecHash": "XWsy98rGvqEu/EETGTkDhXmq3DXOYV8cx2rSwF0/8ASwNEfd2ROOwa/sSfo67W1W6MBhrXz3HFidE4SW69mtBg==",
   "success": true,
   "projectFilePath": "C:\\PROJECTS\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.Android\\FirebaseXamarin.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\msi-nb\\.nuget\\packages\\firebasedatabase.net\\4.0.6\\firebasedatabase.net.4.0.6.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
-    "C:\\Users\\msi-nb\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\msi-nb\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
