@@ -1,0 +1,14 @@
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\bin\Debug\netstandard2.0\FirebaseXamarin.deps.json
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\bin\Debug\netstandard2.0\FirebaseXamarin.dll
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\bin\Debug\netstandard2.0\ref\FirebaseXamarin.dll
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\bin\Debug\netstandard2.0\FirebaseXamarin.pdb
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\FirebaseXamarin.AssemblyInfoInputs.cache
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\FirebaseXamarin.AssemblyInfo.cs
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\FirebaseXamarin.csproj.CoreCompileInputs.cache
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\FirebaseXamarin.dll
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\ref\FirebaseXamarin.dll
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\FirebaseXamarin.pdb
+C:\PROJECTS\FirebaseXamarin\FirebaseXamarin\FirebaseXamarin\obj\Debug\netstandard2.0\Views\RoomListPage.xaml.g.cs

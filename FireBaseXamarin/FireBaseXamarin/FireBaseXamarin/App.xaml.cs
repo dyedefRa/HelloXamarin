@@ -1,8 +1,9 @@
-﻿using System;
+﻿using FirebaseXamarin.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FireBaseXamarin
+namespace FirebaseXamarin
 {
     public partial class App : Application
     {
@@ -10,7 +11,7 @@ namespace FireBaseXamarin
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new RoomListPage();
         }
 
         protected override void OnStart()
