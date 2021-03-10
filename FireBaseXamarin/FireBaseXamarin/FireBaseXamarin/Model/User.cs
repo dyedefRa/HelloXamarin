@@ -15,5 +15,6 @@ namespace FirebaseXamarin.Model
             set
             { uid = value; }
         }
+        public static Room CurrentRoom { get; set; }
     }
 }

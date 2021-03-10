@@ -1,6 +1,7 @@
 ﻿using Firebase.Database;
 using FirebaseXamarin.Model;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -31,11 +32,30 @@ namespace FirebaseXamarin.Helper
         }
 
         public async void AddRoom(Room room)
-        {
-            var data = Newtonsoft.Json.JsonConvert.SerializeObject(room);
+        {          
             await firebaseClient
                   .Child("ChatApp")
-                  .PostAsync(data);
+                  .PostAsync(ConvertObjectToJsonString(room));
+        }
+
+        public void SendMessage(Chat chat,string roomKey)
+        {
+            firebaseClient.Child("ChatApp" + "/" + roomKey + "/Message")
+                .PostAsync(ConvertObjectToJsonString(chat));
+
+        }
+
+        private string ConvertObjectToJsonString(object data)
+        {
+            return Newtonsoft.Json.JsonConvert.SerializeObject(data);
+        }
+
+        public ObservableCollection<Chat> GetAllMessage(string roomKey)
+        {
+            return firebaseClient
+                .Child("ChatApp/" + roomKey + "/Message")
+                .AsObservable<Chat>()
+                .AsObservableCollection();
         }
     }
 }

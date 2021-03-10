@@ -9,7 +9,7 @@
 
     <ContentPage.Content>
         <ListView x:Name="lstView" ItemsSource="{Binding .}" SeparatorVisibility="None"
-                  IsPullToRefreshEnabled="True" Refreshing="ListView_Refreshing" RowHeight="120">
+                  IsPullToRefreshEnabled="True" Refreshing="ListView_Refreshing" RowHeight="120" ItemSelected="lstView_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

@@ -5,4 +5,22 @@
 4-
 //Bu sayfaya yönlendir
             Navigation.PushAsync(new RoomAddPage());
+
 5-Rg.Plugins.Popup
+
+
+6- 
+   public async void AddRoom(Room room)
+        {
+            var data = Newtonsoft.Json.JsonConvert.SerializeObject(room);
+            await firebaseClient
+                  .Child("ChatApp")
+                  .PostAsync(data);
+        }
+
+7-RoomListPage; den gonderıyorum
+MessagingCenter.Send<RoomListPage, Room>(this, "currentRoom", selectedItem);
+
+ RoomChatPAgeden alıyorum;
+   MessagingCenter.Subscribe<RoomListPage, Room>(this, "currentRoom", (page, data) =>
+               { currentRoom = data; });

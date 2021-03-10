@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UYnlDI15O20rRkv3BudWiHdzUbcoi9JCN2nWsR2/M1A7Z+X98lTIgK7y23FryMJC6ySx8BHw5k/GGUBKaFl18g==",
+  "dgSpecHash": "g8p24HZLI8UZIJpmOQkSwJrrD7A/QiOJjOBEIloFaonjdetpjqSIAHqdD+RJ7iUzDLSSvjyIzD4ktllhCYxIpw==",
   "success": true,
-  "projectFilePath": "C:\\PROJECTS\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.Android\\FirebaseXamarin.Android.csproj",
+  "projectFilePath": "C:\\PROJECTS\\FireBaseXamarin\\FirebaseXamarin\\FirebaseXamarin.Android\\FirebaseXamarin.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\msi-nb\\.nuget\\packages\\firebasedatabase.net\\4.0.6\\firebasedatabase.net.4.0.6.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",

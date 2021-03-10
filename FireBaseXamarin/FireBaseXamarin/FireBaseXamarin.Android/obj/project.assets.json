@@ -2572,11 +2572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROJECTS\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.Android\\FirebaseXamarin.Android.csproj",
+      "projectUniqueName": "C:\\PROJECTS\\FireBaseXamarin\\FirebaseXamarin\\FirebaseXamarin.Android\\FirebaseXamarin.Android.csproj",
       "projectName": "FirebaseXamarin.Android",
-      "projectPath": "C:\\PROJECTS\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.Android\\FirebaseXamarin.Android.csproj",
+      "projectPath": "C:\\PROJECTS\\FireBaseXamarin\\FirebaseXamarin\\FirebaseXamarin.Android\\FirebaseXamarin.Android.csproj",
       "packagesPath": "C:\\Users\\msi-nb\\.nuget\\packages\\",
-      "outputPath": "C:\\PROJECTS\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.Android\\obj\\",
+      "outputPath": "C:\\PROJECTS\\FireBaseXamarin\\FirebaseXamarin\\FirebaseXamarin.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2597,8 +2597,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\PROJECTS\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.csproj": {
-              "projectPath": "C:\\PROJECTS\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.csproj"
+            "C:\\PROJECTS\\FireBaseXamarin\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.csproj": {
+              "projectPath": "C:\\PROJECTS\\FireBaseXamarin\\FirebaseXamarin\\FirebaseXamarin\\FirebaseXamarin.csproj"
             }
           }
         }

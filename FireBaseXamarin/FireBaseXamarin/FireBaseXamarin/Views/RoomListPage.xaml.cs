@@ -42,5 +42,19 @@ namespace FirebaseXamarin.Views
             lstView.BindingContext = await dbFire.GetRoomList();
             lstView.IsRefreshing = false;
         }
+
+        private void lstView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
+            if (e.SelectedItem != null)
+            {
+                Room selectedRoom = (Room)e.SelectedItem;
+
+                //MessagingCenter.Send<RoomListPage, Room>(this, "currentRoom", selectedRoom);
+                User.CurrentRoom = selectedRoom;
+
+                Navigation.PushAsync(new RoomChatPage());
+            }
+        }
     }
 }
